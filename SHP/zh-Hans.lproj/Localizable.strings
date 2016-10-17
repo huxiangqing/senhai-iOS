@@ -1,0 +1,302 @@
+/*
+ Localizable.strings
+ LUDE
+ 
+ Created by pearl.wang on 16/1/20.
+ Copyright © 2016年 胡祥清. All rights reserved.
+ */
+
+"Cancel"="取消";
+"Done"="完成";
+"OK"="好的";
+"Photograph"="拍照";
+"Select From Album"="从手机相册选择";
+"FRIEND DATA"="好友血压数据";
+"Expert Advices-Info"="专家建议详情";
+"My Friend"="我的好友";
+"Send"="发送";
+"Discover Friend Succeed"="添加好友成功";
+//引导页
+"skip"="跳过";
+"loading_0"="loadingCHA_0";
+"loading_1"="loadingCHA_1";
+"loading_2"="loadingCHA_2";
+//首页
+"DATE"="日期";
+"SYS"="收缩压";
+"DIA"="舒张压";
+"PUL"="心率";
+"Health Index"="健康指数";
+"SYS(A)"="收缩压（平均）";
+"DIA(A)"="舒张压（平均）";
+"SYS(max)"="收缩压（最高）";
+"DIA(max)"="舒张压（最高）";
+"Start"="开始测量";
+"Measurement"="血压测量";
+"History"="历史数据";
+"Health-Info"="健康资讯";
+"Family"="子女监测";
+
+//侧拉门菜单
+"My Profile"="个人资料";
+"Message Center"="消息中心";
+"My Equipment"="我的设备";
+"My QR Code"="二维码";
+"Settings"="设置";
+
+//血压测量结果——数据
+"RESULTS"="血压测量结果";
+"Data"="数据";
+"Charts"="图表";
+"Trends"="趋势";
+"Retry"="重新测量";
+"Ooh you have a good pressure and health."="哇塞，您的血压击败了全国90%的人哦！身体棒棒哒，一定要保持哦！";
+"Congratulations you have a ideal blood pressure"="恭喜您，您的血压击败了全国80%的人哦，您的身体很健康，请您继续保持哦！";
+"Please take care your health and daily measurement of your pressure."="您的血压击败了全国60%的人哦，不要大意哦，请您每日测量，您的健康，需要我们共同维护。";
+"Please do more exercises and have more health food."="您的血压超过了全国40%的人哦，要记得锻炼身体，保持饮食健康哦。";
+"We suggest you can ask your doctor to give you more suggestions"="您的血压只超过了全国20%的人哦，有空可以去看看医生哦。";
+"You should visit your doctor immediately."="全国只有10%的人血压比您高哦，要赶紧看医生或者准时吃药哦。";
+
+//血压测量结果——图表
+"Arterial blood pressure classification by World Health Organization(WHO)"="国际标准对照表";
+"SYS"="高压";
+"DIA"="低压";
+"Normal BP"="正常";
+"High-normal BP"="正常偏高";
+"Mild Hypertension"="轻度高血压";
+"Moderate Hypertension"="中度高血压";
+"Severe Hypertension"="重度高血压";
+"Your blood pressure lever is NORMAL according WHO"="根据世界卫生组织的高血压分类标准，您的血压处于正常状态";
+"Your blood pressure lever is HIGH NORMAL according WHO"="根据世界卫生组织的高血压分类标准，您的血压处于正常偏高的状态";
+"Your blood pressure lever is Mild Hypertension according WHO"="根据世界卫生组织的高血压分类标准，您的血压处于轻度高血压状态";
+"Your blood pressure lever is Moderate Hypertension according WHO"="根据世界卫生组织的高血压分类标准，您的血压处于中度高血压状态";
+"Your blood pressure lever is Severe Hypertension according WHO"="根据世界卫生组织的高血压分类标准，您的血压处于重度高血压状态";
+"biaoshitu"="biaoshitu";
+
+//血压测量结果——趋势
+"Blood Pressure Trends"="血压趋势";
+"Pulse Pressure"="血压差";
+"PP"="脉压差";
+
+//血压测量结果——分享
+"Wechat Moments"="微信朋友圈";
+"Micro-blog"="新浪微博";
+"Wechat Friends"="微信好友";
+
+//历史数据——历史数据
+"History"="血压历史数据";
+"Charts"="趋势图";
+
+//历史数据——筛选
+"SELECT DATA"="筛选数据";
+"Time Interval"="请选择时间段";
+"Week"="近一周";
+"Two Weeks"="近两周";
+"A Month"="近一个月";
+"Two Months"="近两个月";
+"Confirm"="确定";
+
+//健康咨询
+"HEALTH-INFO"="健康咨询";
+"Daily Advices"="日常建议";
+"Blood Pressure Advices"="血压建议";
+"Blood Glucose Advices"="血糖建议";
+
+//子女检测
+"FAMILY"="子女监测";
+"Health Index"="健康指数";
+"BP"="血压";
+"PUL"="心率";
+
+//好友详情
+"Date_C"="测量日期";
+"Message All"="全部留言";
+//有点问题。。。。
+//"Message from"="在留言";
+"IN"="在";
+"Message from"="的留言";
+
+//个人资料
+"MY PROFILE"="个人资料";
+"Profile Photo"="头像";
+"Profile"="基本信息";
+"Name"="姓名";
+"Male/Female"="性别";
+"Birthday"="生日";
+"Height"="您的身高";
+"Weight"="您的体重";
+"M"="男";
+"F"="女";
+"Save"="保存";
+"Perfect Information"="完善信息";
+
+
+//消息中心
+"MESSAGE CENTER"="消息中心";
+"New Friend"="好友请求";
+"Message"="留言消息";
+"Notification"="系统消息";
+//"Information List"="消息列表";
+"Message Detail"="消息详情";
+
+
+//我的设备
+"MY EQUIPMENT"="我的设备";
+"Delete"="删除";
+
+//二维码
+"My QR"="我的二维码";
+"Scan the QR Code to add Friend"="扫一扫 加我为好友";
+"QR code"="请扫描上方二维码";
+"Scanning"="正在扫描";
+"Discover Friend"="添加好友";
+"Mobile Contacts"="请输入手机号来查找";
+"Scan"="扫一扫";
+"Add"="添加";
+"Request Add Friend"="请求添加为好友";
+
+//设置
+"SETTING"="设置";
+"New message Alert"="是否接受信息推送";
+"Instruction"="使用说明";
+"Clear Data"="清除缓存";
+"About HONSUN"="关于鹿得";
+"LOG OUT"="退出登录";
+"Cache has been cleared"="缓存已经清除完成";
+
+//定时提醒
+"ALARM"="定时提醒";
+"Medicine Alarm"="吃药提醒";
+"Measurement Alarm"="测量提醒";
+"Alert"="提示";
+"Reminder"="提示";
+"Please Add an Alert"="亲，赶紧添加一个提醒吧";
+"Setting Alert"="提醒设置";
+"NEW ALERT"="新增";
+"Add Alert"="新建提醒";
+"Eidt Alert"="编辑提醒";
+"New alert has set OK"="新增提醒设置成功";
+"yyyy"="年";
+"MM"="月";
+"dd"="日";
+"HH"="时";
+"mm"="分";
+
+//登录/注册
+"Register"="注册";
+"LOG ON"="登录";
+"Sign Up"="免费注册";
+//"Account/Mobile Number"="手机号/11位纯数字";
+"Account"="手机号 / ";
+"Mobile Number" ="11位纯数字";
+"Code"="验证码 / ";
+"Verification Code"="短信验证码60秒有效";
+"Getting Code"="立即获取";
+"Log On"="立即登录";
+"Log On by other ways"="第三方登录";
+"Wechat Connect"="使用微信登录";
+"Weibo Connect"="使用微博登录";
+"NEXT"="下一步";
+"Continuing means you’ve read and agreed to our Terms"="我已阅读并同意";
+"Service and Privacy"="《注册协议》";
+"Agree"="同意";
+"Disagree"="不同意";
+"Service and Privacy Policy"="注册协议";
+"Retry After"="后重试";
+"Get Code"="获取验证码";
+"Please Try Again"="请再次尝试";
+
+//缺少翻译
+"Manual Input"="手动输入";
+"Searching Device"="正在搜索设备";
+"Search Device"="搜索设备";
+"Share Succeed"="分享成功";
+"Share Failed"="分享失败";
+"Pulse"="脉搏";
+"Time"="测量时间";
+"Stop"="停止";
+"Search Doctor"="寻医";
+
+"Ask to add you as a friend"="请求添加你为好友";
+"Account input error"="账号输入不正确";
+"Please check the network"="无法连接服务器，请检查网络";
+"Please try again later"="服务器连接超时，请稍后再试";
+"Have been disconnected from the Internet"="似乎已断开与互联网的连接";
+"Please confirm and try again"="输入验证码有误，请确认后重试!";
+"Please enter the correct verification code"="输入码有误，请输入正确验证码!";
+"Agree to the contents of the relevant agreement"="请同意相关协议内容";
+"Select Brithday"="请选择出生日期";
+"Input Name"="请输入姓名(10个字内)";
+"Date of birth is not completed"="出生日期未填写，请完善!";
+"Please enter the name of 10 words or less"="请您输入10个字以内的姓名";
+"Please complete the personal information"="部分信息未填写，请完善个人信息!";
+"Delete alerts set successfully"="删除提醒设置成功";
+"Reminder time can not be more than 10"="提醒时间不能超过10条!";
+
+"You have closed the system to receive messages"="您已关闭系统收消息的通知";
+"You have been notified of the system message"="您已开启系统消息的通知";
+//
+// "Cache has been cleared to complete"="缓存已经清除完成";
+"Are you sure you want to log out"="您确定要退出登录吗？";
+"Blood pressure measurement guide"="血压测量指导";
+"The contents you sent can not be empty"="您发送的内容不能为空";
+"Starts scanning device"="开始扫描设备";
+"Ready to open the device"="准备打开";
+"Ready to connect equipment"="准备连接设备";
+"Start connect device"="开始连接设备";
+"No available set was found for the time being"="暂时未发现可用设备";
+"Find the following devices please select the connection"="发现以下设备请选择连接";
+//"Search Service"="搜索到服务";
+"Blood glucose devices are not connected successfully"="血糖设备没有连接成功";
+"Blood pressure devices are not connected successfully"="血压设备没有连接成功";
+"You do not fill in the systolic pressure"="您还没有填写收缩压";
+"You have not filled in diastolic pressure"="您还没有填写舒张压";
+"You haven't filled in the pulse"="您还没有填写脉搏";
+"You have not completed the measurement time"="您还没有填写测量时间";
+"Systolic blood pressure should not be less than diastolic blood pressure"="收缩压不能小于舒张压";
+"Please enter the correct values within the 10~200"="请输入10~200内正确的数值!";
+"Blood pressure gauge is being measured"="血压计正在进行测量，请保持正确的坐姿不要说话";
+"You have canceled the measurement"="您已经取消测量！";
+"I know"="我知道了";
+"Cannot be filled with gas"="充不上气";
+"Error in measurement"="测量中发生错误";
+"Blood pressure meter low power"="血压计低电量";
+"Peripheral has been disconnected. Please reconnect"="peripheral已经断开连接，请重新连接";
+"This characteristic does not have the rights to nofity"="这个characteristic没有nofity的权限";
+"Click to view"="点击查看";
+"Please enter the correct cell phone number"="请输入正确的手机号码!";
+
+
+
+//错误提示
+"Connection Timeout"="连接超时";
+"Connection Error"="连接错误";
+"Successful Operation"="操作成功";
+"The phone number is not in conformity with the specification"="你输入的手机号码不符合规范，请重新输入。";
+"User already exists"="用户已存在";
+"User name or password wrong"="用户名或密码错误";
+"Verification code sent timeout"="验证码发送超时";
+"Verification code has been used"="验证码已被使用";
+"Verification code has expired"="验证码已过期";
+"Illegal verification code"="非法的验证码";
+"Verification code sent too fast"="验证码发送过快";
+"Upload avatar to empty"="上传头像为空";
+"The new password must be different from the old one"="你输入的新密码必须跟旧密码不一样";
+"The old password is incorrect"="你输入的旧密码错误";
+"Enter the phone number is empty"="输入的手机号码为空";
+"The phone number is incorrect. Please re-enter it"="你输入的手机号码有误, 请重新输入";
+"Cell phone number already exists"="手机号码已存在";
+"Mobile phone number has been bound"="手机号码已绑定";
+"Not bound phone number"="未绑定的手机号码";
+"Wrong cell phone number"="错误的手机号码";
+
+
+//下拉刷新，上拉加载
+
+"Pull-refresh"="下拉刷新";
+"Refreshing"="正在刷新中...";
+"Loding"="正在加载中...";
+"Pull-loading"="上拉加载更多";
+"No more records"="没有更多的数据了!";
+
+

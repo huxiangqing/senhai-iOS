@@ -1,0 +1,298 @@
+/* 
+  Localizable.strings
+  LUDE
+
+  Created by pearl.wang on 16/1/20.
+  Copyright © 2016年 胡祥清. All rights reserved.
+*/
+"Cancel" ="Cancel" ;
+"Done" = "Done";
+"OK"="OK";
+"Photograph"="Photograph";
+"Select From Album"="Select From Album";
+"FRIEND DATA"="Friend Data";
+"Expert Advices-Info"="Expert Advices-Info";
+"My Friend"="My Friend";
+"Send"="Send";
+"Discover Friend Succeed"="Discover Friend Succeed";
+//引导页
+"skip"="skip";
+"loading_0"="loading_0";
+"loading_1"="loading_1";
+"loading_2"="loading_2";
+//首页
+"DATE"="Date";
+"SYS"="SYS";
+"DIA"="DIA";
+"PUL"="PUL";
+"Health Index"="Health Index";
+"SYS(A)"="SYS(A)";
+"DIA(A)"="DIA(A)";
+"SYS(max)"="SYS(max)";
+"DIA(max)"="DIA(max)";
+"Start"="Start";
+"Measurement"="Measurement";
+"History"="History";
+"Health-Info"="Health-Info";
+"Family"="Family";
+
+//侧拉门菜单
+"My Profile"="My Profile";
+"Message Center"="Message Center";
+"My Equipment"="My Equipment";
+"My QR Code"="My QR Code";
+"Settings"="Settings";
+
+//血压测量结果——数据
+"RESULTS"="RESULTS";
+"Data"="Data";
+"Charts"="Charts";
+"Trends"="Trends";
+"Retry"="Retry";
+"Ooh you have a good pressure and health."="Ooh you have a good pressure and health.";
+"Congratulations you have a ideal blood pressure"="Congratulations you have a ideal blood pressure";
+"Please take care your health and daily measurement of your pressure."="Please take care your health and daily measurement of your pressure.";
+"Please do more exercises and have more health food."="Please do more exercises and have more health food.";
+"We suggest you can ask your doctor to give you more suggestions"="We suggest you can ask your doctor to give you more suggestions";
+"You should visit your doctor immediately."="You should visit your doctor immediately.";
+
+//血压测量结果——图表
+"Arterial blood pressure classification by World Health Organization(WHO)"="Arterial blood pressure classification by World Health Organization(WHO)";
+"SYS"="SYS";
+"DIA"="DIA";
+"Normal BP"="Normal BP";
+"High-normal BP"="High-normal BP";
+"Mild Hypertension"="Mild Hypertension";
+"Moderate Hypertension"="Moderate Hypertension";
+"Severe Hypertension"="Severe Hypertension";
+"Your blood pressure lever is NORMAL according WHO"="Your blood pressure lever is NORMAL according WHO";
+"Your blood pressure lever is HIGH NORMAL according WHO"="Your blood pressure lever is HIGH NORMAL according WHO";
+"Your blood pressure lever is Mild Hypertension according WHO"="Your blood pressure lever is Mild Hypertension according WHO";
+"Your blood pressure lever is Moderate Hypertension according WHO"="Your blood pressure lever is Moderate Hypertension according WHO";
+"Your blood pressure lever is Severe Hypertension according WHO"="Your blood pressure lever is Severe Hypertension according WHO";
+"biaoshitu"="biaoshituENG";
+
+//血压测量结果——趋势
+"Blood Pressure Trends"="Blood Pressure Trends";
+"Pulse Pressure"="Pulse Pressure";
+"PP"="PP";
+
+//血压测量结果——分享
+"Wechat Moments"="Wechat Moments";
+"Micro-blog"="Micro-blog";
+"Wechat Friends"="Wechat Friends";
+
+//历史数据——历史数据
+"History"="History";
+"Charts"="Charts";
+
+//历史数据——筛选
+"SELECT DATA"="Select Data";
+"Time Interval"="Time Interval";
+"Week"="Week";
+"Two Weeks"="Two Weeks";
+"A Month"="A Month";
+"Two Months"="Two Months";
+"Confirm"="Confirm";
+
+//健康咨询
+"HEALTH-INFO"="Health-Info";
+"Daily Advices"="Daily";
+"Blood Pressure Advices"="BP";
+"Blood Glucose Advices"="GLU";
+
+//子女检测
+"FAMILY"="Family";
+"Health Index"="Health Index";
+"BP"="BP";
+"PUL"="PUL";
+
+//好友详情
+"Date_C"="Date";
+"Message All"="Message";
+//有问题。。。
+//"Message from"="Message from";
+"IN"="In";
+"Message from"="Message from";
+
+//个人资料
+"MY PROFILE"="My Profile";
+"Profile Photo"="Profile Photo";
+"Profile"="Profile";
+"Name"="Name";
+"Male/Female"="Gender";
+"Birthday"="Birthday";
+"Height"="Height";
+"Weight"="Weight";
+"M"="M";
+"F"="F";
+"Save"="Save";
+"Perfect Information"="Optimize your information";
+
+//消息中心
+"MESSAGE CENTER"="Message Center";
+"New Friend"="New Friends";
+"Message"="Messages";
+"Notification"="Notifications";
+"Message Detail"="Details";
+
+
+//我的设备
+"MY EQUIPMENT"="My Equipment";
+"Delete"="Remove";
+
+//二维码
+"My QR"="My QR";
+"Scan the QR Code to add Friend"="Scan the QR Code to add Friend";
+"QR code"="QR code";
+"Scanning"="Scanning";
+"Discover Friend"="Add Contacts";
+"Mobile Contacts"="Mobile Contacts";
+"Scan"="Scan";
+"Add"="ADD";
+"Request Add Friend"="Request Add Friend";
+
+//设置
+"SETTING"="Settings";
+"New message Alert"="New message Alert";
+"Instruction"="Usage";
+"Clear Data"="Clear Cash";
+"About HONSUN"="About Us";
+"LOG OUT"="Logout";
+"Cache has been cleared"="Cache has been cleared";
+
+//定时提醒
+"ALARM"="Alarm";
+"Medicine Alarm"="Medicine Alarm";
+"Measurement Alarm"="Measurement Alarm";
+"Alert"="Alert";
+"Reminder"="Reminder";
+"Please Add an Alert"="Please Add an Alert";
+"Setting Alert"="Setting Alert";
+"NEW ALERT"="NEW";
+"Add Alert"="Add Alert";
+"New alert has set OK"="New alert has set";
+"Eidt Alert"="Edit Alert";
+"yyyy"="";
+"MM"="";
+"dd"="";
+"HH"="";
+"mm"="";
+//登录/注册
+"Register"="Register";
+"LOG ON"="Login";
+"Sign Up"="Sign Up";
+//"Account/Mobile Number"="Account/Mobile Number";
+"Account"="Account / ";
+"Mobile Number" ="Mobile Number";
+//"Verification Code"="Verification Code";
+"Code"="Code / ";
+"Verification Code"="Verification Code";
+"Getting Code"="Getting";
+"Log On"="Login";
+"Log On by other ways"="Login by other ways";
+"Wechat Connect"="Wechat Connect";
+"Weibo Connect"="Micro-blog Connect";
+"NEXT"="NEXT";
+//"Continuing means you’ve read and agreed to our Terms of Service and Privacy Policy"="Continuing means you’ve read and agreed to our Terms of Service and Privacy Policy";
+"Continuing means you’ve read and agreed to our Terms"="Continuing means you’ve read and agreed to our Terms";
+"Service and Privacy"="《Service and Privacy》";
+"Agree"="Agree";
+"Disagree"="Disagree";
+"Service and Privacy Policy"="Service and Privacy Policy";
+"Retry After"="Retry After";
+"Get Code"="Get Code";
+"Please Try Again"="Please Try Again";
+
+//错误提示
+"Connection Timeout"="Connection Timeout";
+"Connection Error"="Connection Error";
+"Successful Operation"="Successful Operation";
+"The phone number is not in conformity with the specification"="The phone number is not in conformity with the specification.";
+"User already exists"="User already exists";
+"User name or password wrong"="User name or password wrong";
+"Verification code sent timeout"="Verification code sent timeout";
+"Verification code has been used"="Verification code has been used";
+"Verification code has expired"="Verification code has expired";
+"Illegal verification code"="Illegal verification code";
+"Verification code sent too fast"="Verification code sent too fast";
+"Upload avatar to empty"="Upload avatar to empty";
+"The new password must be different from the old one"="The new password must be different from the old one";
+"The old password is incorrect"="The old password is incorrect";
+"Enter the phone number is empty"="Enter the phone number is empty";
+"The phone number is incorrect. Please re-enter it"="The phone number is incorrect. Please re-enter it";
+"Cell phone number already exists"="Cell phone number already exists";
+"Mobile phone number has been bound"="Mobile phone number has been bound";
+"Not bound phone number"="Not bound phone number";
+"Wrong cell phone number"="Wrong cell phone number";
+
+
+
+//缺少翻译
+"Manual Input"="Input";
+"Searching Device"="Searching Device";
+"Search Device"="Search Device";
+"Share Succeed"="Share Succeed";
+"Share Failed"="Share Failed";
+"Pulse"="Pulse";
+"Time"="Time";
+"Stop"="Stop";
+
+"Account input error"="Invalid account or password";
+"Please check the network"="Unable to connect to the internet, please check you connection";
+"Please try again later"="Network unavailable, please try again later";
+"Have been disconnected from the Internet"="Network unavailable";
+"Please confirm and try again"="Wrong cord, please try again later!";
+"Please enter the correct verification code"="Wrong cord, please try again late!";
+"Agree to the contents of the relevant agreement"="Please read and agree our Term of Service and Privacy policy";
+"Select Brithday"="Please set you birthday";
+"Input Name"="Please import your name";
+"Date of birth is not completed"="Please full your birthday date!";
+"Please enter the name of 10 words or less"="Please import your name";
+"Please complete the personal information"="Please full your personal information!";
+"Delete alerts set successfully"="Setup successful";
+"Reminder time can not be more than 10"="On more than 10 items!";
+"Ask to add you as a friend"="Ask to add you as a friend";
+"You have closed the system to receive messages"="You have closed the system to receive messages";
+"You have been notified of the system message"="You have been notified of the system message";
+"Cache has been cleared to complete"="Cache has been cleared to complete";
+"Are you sure you want to log out"="Are you sure you want to log out?";
+"Blood pressure measurement guide"="Tips";
+"The contents you sent can not be empty"="The contents you sent can not be empty";
+"Starts scanning device"="Starts scanning device";
+"Ready to open the device"="Ready to open the device";
+"Ready to connect equipment"="Ready to connect equipment";
+"Start connect device"="Start connect device";
+"No available set was found for the time being"="No available device was found";
+"Find the following devices please select the connection"="please select the connection";
+"Search Service"="Searched Service";
+"Blood glucose devices are not connected successfully"="Blood glucose devices are not connected successfully";
+"Blood pressure devices are not connected successfully"="Blood pressure devices are not connected successfully";
+"You do not fill in the systolic pressure"="You do not fill in the systolic pressure";
+"You have not filled in diastolic pressure"="You have not filled in diastolic pressure";
+"You haven't filled in the pulse"="You haven't filled in the pulse";
+"You have not completed the measurement time"="You have not completed the measurement time";
+"Systolic blood pressure should not be less than diastolic blood pressure"="Systolic blood pressure should not be less than diastolic blood pressure";
+"Please enter the correct values within the 10~200"="Please enter the correct values within the 10~200";
+"Blood pressure gauge is being measured"="Blood pressure gauge is being measured";
+"You have canceled the measurement"="You have canceled the measurement";
+"I know"="I know";
+"Cannot be filled with gas"="Cannot be filled with gas";
+"Error in measurement"="Error in measurement";
+"Blood pressure meter low power"="Blood pressure meter low power";
+"Peripheral has been disconnected. Please reconnect"="Peripheral has been disconnected. Please reconnect";
+"Search Doctor"="Doctor";
+"This characteristic does not have the rights to nofity"="This characteristic does not have the rights to nofity";
+"Click to view"="Click to view";
+
+
+//下拉刷新，上拉加载
+
+"Pull-refresh"="Pull-refresh";
+"Refreshing"="Refreshing";
+"Pull-loading"="Pull-loading";
+"Loding"="loding";
+"No more records"="No more";
+
+
+
