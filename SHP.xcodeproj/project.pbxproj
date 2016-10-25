@@ -12,6 +12,7 @@
 		0F355FAE1DA9E6FF00AA0CC3 /* SHPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F355FAD1DA9E6FF00AA0CC3 /* SHPTests.m */; };
 		0F355FB91DA9E6FF00AA0CC3 /* SHPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F355FB81DA9E6FF00AA0CC3 /* SHPUITests.m */; };
 		0F4530591DAB287200083E80 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F4530581DAB287200083E80 /* Info.plist */; };
+		0F786C571DBEF0DB00C4E9C1 /* BSMeasureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F786C561DBEF0DB00C4E9C1 /* BSMeasureVC.m */; };
 		0F92E4F31DAA1E470036FCA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92E4EC1DAA1E470036FCA7 /* AppDelegate.m */; };
 		0F92E4F41DAA1E470036FCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F92E4ED1DAA1E470036FCA7 /* Main.storyboard */; };
 		0F92E4F51DAA1E470036FCA7 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F92E4EE1DAA1E470036FCA7 /* Second.storyboard */; };
@@ -78,7 +79,6 @@
 		0F92E8051DAA2D8B0036FCA7 /* MedicationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92E7DC1DAA2D8B0036FCA7 /* MedicationModel.m */; };
 		0F92E8061DAA2D8B0036FCA7 /* BPMeasurementGuidanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92E7DE1DAA2D8B0036FCA7 /* BPMeasurementGuidanceViewController.m */; };
 		0F92E8071DAA2D8B0036FCA7 /* BSManualInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92E7E01DAA2D8B0036FCA7 /* BSManualInputVC.m */; };
-		0F92E8081DAA2D8B0036FCA7 /* BSMeasureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92E7E21DAA2D8B0036FCA7 /* BSMeasureVC.m */; };
 		0F92E8091DAA2D8B0036FCA7 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92E7E41DAA2D8B0036FCA7 /* FristViewController.m */; };
 		0F92E80A1DAA2D8B0036FCA7 /* RiskAssessmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92E7E61DAA2D8B0036FCA7 /* RiskAssessmentVC.m */; };
 		0F92E80B1DAA2D8B0036FCA7 /* RiskFillInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F92E7E81DAA2D8B0036FCA7 /* RiskFillInformationVC.m */; };
@@ -215,6 +215,7 @@
 		0F355FB81DA9E6FF00AA0CC3 /* SHPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPUITests.m; sourceTree = "<group>"; };
 		0F355FBA1DA9E6FF00AA0CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F4530581DAB287200083E80 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F786C561DBEF0DB00C4E9C1 /* BSMeasureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeasureVC.m; sourceTree = "<group>"; };
 		0F92E4EA1DAA1E470036FCA7 /* SHP.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SHP.entitlements; sourceTree = "<group>"; };
 		0F92E4EB1DAA1E470036FCA7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F92E4EC1DAA1E470036FCA7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -229,7 +230,6 @@
 		0F92E6CF1DAA1F760036FCA7 /* privatepolicy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = privatepolicy.txt; sourceTree = "<group>"; };
 		0F92E6D01DAA1F760036FCA7 /* QuartzRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = QuartzRegular.ttf; sourceTree = "<group>"; };
 		0F92E6D41DAA1F8F0036FCA7 /* SHP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHP-Prefix.pch"; sourceTree = "<group>"; };
-		0F92E6D71DAA257F0036FCA7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		0F92E6E11DAA26300036FCA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0F92E6E21DAA26310036FCA7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0F92E6E71DAA2B7A0036FCA7 /* HttpNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpNetWorking.h; sourceTree = "<group>"; };
@@ -343,7 +343,6 @@
 		0F92E7DF1DAA2D8B0036FCA7 /* BSManualInputVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSManualInputVC.h; sourceTree = "<group>"; };
 		0F92E7E01DAA2D8B0036FCA7 /* BSManualInputVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSManualInputVC.m; sourceTree = "<group>"; };
 		0F92E7E11DAA2D8B0036FCA7 /* BSMeasureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMeasureVC.h; sourceTree = "<group>"; };
-		0F92E7E21DAA2D8B0036FCA7 /* BSMeasureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeasureVC.m; sourceTree = "<group>"; };
 		0F92E7E31DAA2D8B0036FCA7 /* FristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
 		0F92E7E41DAA2D8B0036FCA7 /* FristViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristViewController.m; sourceTree = "<group>"; };
 		0F92E7E51DAA2D8B0036FCA7 /* RiskAssessmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiskAssessmentVC.h; sourceTree = "<group>"; };
@@ -864,7 +863,7 @@
 				0F92E7DF1DAA2D8B0036FCA7 /* BSManualInputVC.h */,
 				0F92E7E01DAA2D8B0036FCA7 /* BSManualInputVC.m */,
 				0F92E7E11DAA2D8B0036FCA7 /* BSMeasureVC.h */,
-				0F92E7E21DAA2D8B0036FCA7 /* BSMeasureVC.m */,
+				0F786C561DBEF0DB00C4E9C1 /* BSMeasureVC.m */,
 				0F92E7E31DAA2D8B0036FCA7 /* FristViewController.h */,
 				0F92E7E41DAA2D8B0036FCA7 /* FristViewController.m */,
 				0F92E7E51DAA2D8B0036FCA7 /* RiskAssessmentVC.h */,
@@ -1642,6 +1641,7 @@
 				0F92E8011DAA2D8B0036FCA7 /* DrugListVC.m in Sources */,
 				0F92E8061DAA2D8B0036FCA7 /* BPMeasurementGuidanceViewController.m in Sources */,
 				0F92E7AC1DAA2D440036FCA7 /* BloodRressureMonitoringViewController.m in Sources */,
+				0F786C571DBEF0DB00C4E9C1 /* BSMeasureVC.m in Sources */,
 				0F92E8511DAA2E0C0036FCA7 /* FriendsHistoryViewController.m in Sources */,
 				0F92E82E1DAA2DD10036FCA7 /* SuggestModel.m in Sources */,
 				0F92E77C1DAA2CB80036FCA7 /* MessageCenterViewController.m in Sources */,
@@ -1692,7 +1692,6 @@
 				0F92E8301DAA2DD10036FCA7 /* ThirdTableViewCell.m in Sources */,
 				0F92E6FC1DAA2B910036FCA7 /* MenuView.m in Sources */,
 				0F92E8D11DAA2E450036FCA7 /* ChartLineView.m in Sources */,
-				0F92E8081DAA2D8B0036FCA7 /* BSMeasureVC.m in Sources */,
 				0F92E8E21DAA2E450036FCA7 /* CalendarDayModel.m in Sources */,
 				0F92E7B51DAA2D5B0036FCA7 /* PeripheralViewCell.m in Sources */,
 				0F92E8221DAA2DAF0036FCA7 /* SecondTableViewCell.m in Sources */,
@@ -1739,7 +1738,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				0F355FA21DA9E6FF00AA0CC3 /* Base */,
-				0F92E6D71DAA257F0036FCA7 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

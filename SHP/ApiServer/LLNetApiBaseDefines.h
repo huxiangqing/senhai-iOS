@@ -10,11 +10,11 @@
 #ifndef NetWorkDefines_H
 #define NetWorkDefines_H
 //正式服务器
-#define SERVER_DEMAIN @"http://139.196.106.123/lude/"
+//#define SERVER_DEMAIN @"http://ludehealth.com/senhai/"
 //测试服务器
 //#define SERVER_DEMAIN @"http://47.88.34.121/lude/"
 //罗丹
-//#define SERVER_DEMAIN @"http://192.168.2.222:8080/lude/"
+#define SERVER_DEMAIN @"http://loc.ludehealth.com/senhai/"
 
 typedef void (^LLDPNetBaseBlock)(void);
 typedef void (^LLDPResponseBlock)(id objectRet, NSError *errorRes);

@@ -139,7 +139,9 @@ typedef enum BSInstructionType
     /***  仪器状态和测量结果*/
     BSInstructionType_PerialpheralStateAndResult,
     /***  单位*/
-    BSInstructionType_PerialpheralConcentrationUnit
+    BSInstructionType_PerialpheralConcentrationUnit,
+    /***  时间*/
+    BSInstructionType_PerialpheralTime
 }BSInstructionType;
 
 /**
