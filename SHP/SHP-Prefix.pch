@@ -49,6 +49,7 @@
 #import "ZHRulerView.h"
 #import "GUAAlertView.h"
 #import "GCView.h"
+#import <WebKit/WebKit.h>
 
 
 #endif /* SHP_Prefix_pch */

@@ -12,7 +12,7 @@
 /**
  *	@brief UIWebView
  */
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet WKWebView *webView;
 /**
  *	@brief 链接地址
  */

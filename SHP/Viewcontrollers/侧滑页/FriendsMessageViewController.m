@@ -439,8 +439,7 @@
 
 -(void)OKBtnClick:(UIButton *)sender
 {
-    
-
+    WeakObject(self);
    NSString *messageIdStr =[NSString stringWithFormat:@"%@",[[_friendsMarr objectAtIndex:sender.tag-100]objectForKey:@"messageId"]];
     LLNetApiBase *apis =[[LLNetApiBase alloc]init];
     [apis PostSaveVerificationMessageAgreeAppMessageId:messageIdStr andCompletion:^(id objectRet, NSError *errorRes)
@@ -450,10 +449,17 @@
              NSString *statusStr =[NSString stringWithFormat:@"%@",[objectRet objectForKey:@"status"]];
              if ([statusStr isEqualToString:@"1"])
              {
-                 UIAlertView *alertView =[[UIAlertView alloc]initWithTitle:NSLocalizedString(@"Alert", nil) message:[objectRet objectForKey:@"msg"]delegate:nil cancelButtonTitle:nil otherButtonTitles:NSLocalizedString(@"Confirm", nil), nil];
-                 [alertView show];
+                
+                 UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Alert", nil) message:[objectRet objectForKey:@"msg"] preferredStyle:UIAlertControllerStyleAlert];
+                 UIAlertAction *otherAction  = [UIAlertAction actionWithTitle:NSLocalizedString(@"Confirm", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction *action)
+                                                {
+                                                    
+                                                    [__weakObject createAddFriend];
+                                                    
+                                                }];
+                 [alertController addAction:otherAction];
+                 [self presentViewController:alertController animated:YES completion:nil];
                  
-                 [self createAddFriend];
              }
              else
              {

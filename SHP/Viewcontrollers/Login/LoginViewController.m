@@ -378,6 +378,9 @@
     [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
     WeakObject(self);
     [ShareSDK getUserInfo:SSDKPlatformTypeSinaWeibo onStateChanged:^(SSDKResponseState state, SSDKUser *user, NSError *error) {
+        
+        NSLog(@"\n\n\n\n%@,\n\n\n%@",user.rawData,error);
+        
         if (state == SSDKResponseStateSuccess)
         {
              [__weakObject thirdPartActionBeginClicked:user.uid info:nil];
@@ -669,7 +672,7 @@
                                                        -5.0,
                                                        0.0,
                                                        0.0)];
-        [weiboBtn setImage:[UIImage imageNamed: @"Micro-blog"] forState:UIControlStateNormal];
+        [weiboBtn setImage:[UIImage imageNamed: @"weibo"] forState:UIControlStateNormal];
         [weiboBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.equalTo(_thirdLoginView);
              make.bottom.equalTo(_thirdLoginView);

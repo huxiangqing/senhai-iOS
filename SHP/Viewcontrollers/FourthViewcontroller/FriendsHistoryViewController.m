@@ -56,7 +56,7 @@
     self.view.backgroundColor = [UIColor yellowColor];
     _linesView.hidden = YES;
     //    CGRect frame =_linesView.frame;
-    _blueLinesView =[[UIView alloc]initWithFrame:CGRectMake(_linesView.frame.origin.x, _linesView.frame.origin.y, self.view.widthValue/2.0-40, _linesView.frame.size.height)];
+    _blueLinesView =[[UIView alloc]initWithFrame:CGRectMake(20.0, 46.0, self.view.widthValue/2.0-40, 4.0)];
     _blueLinesView.backgroundColor =RGBCOLOR(111, 187, 230);
     [_btnBackView addSubview:_blueLinesView];
     [self MJView];

@@ -130,7 +130,7 @@
     if ([self.ringView viewWithTag:1000]) {
         [[self.ringView viewWithTag:1000]  removeFromSuperview];
     }
-    UIView *gcView =  [[GCView alloc] initGCViewWithBounds:CGRectMake(0, 0,_ringView.widthValue, _ringView.heightValue) FromColor:[Tools colorFromHealthIndex:[NSString stringWithFormat:@"%@",[_friendsDetailsDict objectForKey:@"healthNumber"]]] ToColor:[UIColor whiteColor] LineWidth:4.0 withPercent:[NSString stringWithFormat:@"%@",[_friendsDetailsDict objectForKey:@"healthNumber"]] adjustFont:NO];
+    UIView *gcView =  [[GCView alloc] initGCViewWithBounds:CGRectMake(0, 0,50.0, 50.0) FromColor:[Tools colorFromHealthIndex:[NSString stringWithFormat:@"%@",[_friendsDetailsDict objectForKey:@"healthNumber"]]] ToColor:[UIColor whiteColor] LineWidth:4.0 withPercent:[NSString stringWithFormat:@"%@",[_friendsDetailsDict objectForKey:@"healthNumber"]] adjustFont:NO];
     gcView.tag = 1000;
     [self.ringView addSubview:gcView];
     

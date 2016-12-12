@@ -12,6 +12,6 @@
 
 @interface InstructionViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIWebView *instructionWebView;
+@property (weak, nonatomic) IBOutlet WKWebView *instructionWebView;
 
 @end

@@ -13,7 +13,7 @@
 /**
  *	@brief	消息类型
  */
-@property (weak, nonatomic) IBOutlet UIWebView *MessageDetailWebView;
+@property (weak, nonatomic) IBOutlet WKWebView *MessageDetailWebView;
 /**
  *	@brief	消息类型
  */

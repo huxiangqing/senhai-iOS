@@ -12,6 +12,8 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    [super awakeFromNib];
+    [self.contentView layoutIfNeeded];
     
     [_lblHealth setText:NSLocalizedString(@"Health Index",nil)];
     [_lblHart setText:NSLocalizedString(@"PUL",nil)];

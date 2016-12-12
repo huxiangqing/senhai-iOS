@@ -9,7 +9,7 @@
 #import "ThirdDetailsViewController.h"
 
 @interface ThirdDetailsViewController ()<UINavigationControllerDelegate,UIWebViewDelegate>
-@property (weak, nonatomic) IBOutlet UIWebView *detailsWebView;
+@property (weak, nonatomic) IBOutlet WKWebView *detailsWebView;
 @property (strong, nonatomic) IBOutlet UILabel *lblTitleName;
 
 @end
@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [_lblTitleName setText:NSLocalizedString(@"Expert Advices-Info", nil)];
     self.navigationController.delegate = self;
     NSString *str=[NSString stringWithFormat:@"%@app/articleInfo/showContent.htm?articleId=%@",SERVER_DEMAIN,_articleIdStr];

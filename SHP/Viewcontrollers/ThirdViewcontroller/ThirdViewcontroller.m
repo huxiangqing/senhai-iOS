@@ -299,23 +299,21 @@
     _secondMarr =[[NSMutableArray alloc]init];
     _thirdMarr =[[NSMutableArray alloc]init];
     
-    
-    
-    _fristTableView =[[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.widthValue, self.view.heightValue-64-49-50) style:UITableViewStylePlain];
+    _fristTableView =[[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.widthValue, self.view.heightValue-64-50) style:UITableViewStylePlain];
     _fristTableView.delegate =self;
     _fristTableView.dataSource =self;
     _fristTableView.backgroundColor =[UIColor clearColor];
     _fristTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [_backView addSubview:_fristTableView];
     
-    _secondTableView =[[UITableView alloc]initWithFrame:CGRectMake(self.view.widthValue, 0, self.view.widthValue, self.view.heightValue-64-49-50) style:UITableViewStylePlain];
+    _secondTableView =[[UITableView alloc]initWithFrame:CGRectMake(self.view.widthValue, 0, self.view.widthValue, self.view.heightValue-64-50) style:UITableViewStylePlain];
     _secondTableView.delegate =self;
     _secondTableView.dataSource =self;
     _secondTableView.backgroundColor =[UIColor clearColor];
     _secondTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [_backView addSubview:_secondTableView];
     
-    _thridTableView =[[UITableView alloc]initWithFrame:CGRectMake(2*self.view.widthValue,0, self.view.widthValue,self.view.heightValue-64-49-50) style:UITableViewStylePlain];
+    _thridTableView =[[UITableView alloc]initWithFrame:CGRectMake(2*self.view.widthValue,0, self.view.widthValue,self.view.heightValue-64-50) style:UITableViewStylePlain];
     _thridTableView.delegate =self;
     _thridTableView.dataSource =self;
     _thridTableView.backgroundColor =[UIColor clearColor];
@@ -489,7 +487,6 @@
         {
              [_thridTableView.header beginRefreshing];
         }
-        
         
     }
 }

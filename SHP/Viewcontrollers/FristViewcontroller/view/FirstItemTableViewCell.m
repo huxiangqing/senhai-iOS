@@ -12,6 +12,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    [self.contentView layoutIfNeeded];
 }
 + (instancetype)cellWithTableView:(UITableView *)tableView
 {

@@ -12,6 +12,6 @@
 
 @interface AboutLudeViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIWebView *aboutLudeWebView;
+@property (weak, nonatomic) IBOutlet WKWebView *aboutLudeWebView;
 
 @end

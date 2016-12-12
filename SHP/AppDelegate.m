@@ -17,12 +17,12 @@
 #import "PressureDataModel.h"
 #import "JPUSHService.h"
 #import <AdSupport/AdSupport.h>
-#define SHARESDKAPPKEY @"17bd2b38f0200"
-#define WXAPPID @"wxe5f0388ff5ae4602"
-#define WXAPPSECRET @"d4624c36b6795d1d99dcf0547af5443d"
-#define WBAPPID @"35451006"
-#define WBAPPSECRET @"74d9dbaa39092daf37989  afb18e1ca8e"
-#define UMAppKey @"5694771fe0f55a251b001d4f"
+#define SHARESDKAPPKEY @"188c33a7cd387"
+#define WXAPPID @"wx9241fafaa6eb25c8"
+#define WXAPPSECRET @"698387ef6f6abe491895a3292861c27f"
+#define WBAPPID @"805969621"
+#define WBAPPSECRET @"1792ca5eb506511ce85c9f195d405c5a"
+#define UMAppKey @"57fca37de0f55a7a85003171"
 
 #define REDIRECTURL @"http://www.sharesdk.cn"
 #import "NavRootViewController.h"
