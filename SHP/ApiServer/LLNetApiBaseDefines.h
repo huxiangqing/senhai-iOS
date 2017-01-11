@@ -10,7 +10,7 @@
 #ifndef NetWorkDefines_H
 #define NetWorkDefines_H
 //正式服务器
-#define SERVER_DEMAIN @"http://senhai.ludehealth.com/senhai/"
+#define SERVER_DEMAIN @"https://www.ludehealth.com:8082/senhai/"
 //测试服务器
 //#define SERVER_DEMAIN @"http://47.88.34.121/lude/"
 //罗丹
